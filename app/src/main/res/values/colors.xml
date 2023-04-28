@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#171717</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#FFFFFF</color>
+    <color name="btnMainColor">#77a1de </color>
+
+    <!-- Sudoku Activity -->
+    <color name="btn_note_able">#1981FF</color>
+    <color name="btn_default_color">#000000</color>
+    <color name="btn_help_disable_color">#828282</color>
+    <color name="modal_etplayer_bg">#D8FFFFFF</color>
+
+    <!-- Settings fragment -->
+    <color name="settings_text_composed_by">#585858</color>
+
+
+    <!-- Score fragment -->
+    <color name="fragment_score_bg">#DDDDDD</color>
+
+
+
+
+
+
+
+
+
+
+
+</resources>

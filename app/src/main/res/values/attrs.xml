@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SudokuView">
+        <attr name="borderCellsColor" format="color"/>
+        <attr name="textNumberColor" format="color"/>
+        <attr name="userTextNumberColor" format="color"/>
+        <attr name="textHintColor" format="color"/>
+
+        <attr name="cellsHighlightColorEmpty" format="color"/>
+        <attr name="cellsHighlightColorFilled" format="color"/>
+
+        <attr name="cellsHighlightColorNear" format="color"/>
+
+        <attr name="cellError" format="color"/>
+
+
+        <!--
+        <attr name="cursorColor" format="color"/>
+        <attr name="cursorBorderColor" format="color"/> -->
+    </declare-styleable>
+</resources>

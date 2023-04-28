@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".mainMenu.fragments.SettingsFragment">
+
+
+    <TextView
+        android:id="@+id/tvSwitchHelp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/fragment_settings_margin_start"
+        android:layout_marginTop="@dimen/fragment_settings_margin_top"
+        android:text="@string/settings_switch_sound_text"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Switch
+        android:id="@+id/switchHelp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/fragment_settings_padding_distance_between_switch"
+        android:checked="true"
+
+        android:gravity="start"
+        android:paddingEnd="@dimen/fragment_settings_padding_switch_end"
+        android:textAlignment="viewStart"
+        android:theme="@style/SwitchTheme"
+        app:layout_constraintStart_toStartOf="@+id/switchSound"
+        app:layout_constraintTop_toBottomOf="@+id/switchSound" />
+
+    <TextView
+        android:id="@+id/tvSwitchSound"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/settings_switch_help"
+        app:layout_constraintBottom_toBottomOf="@+id/switchHelp"
+        app:layout_constraintStart_toStartOf="@+id/tvSwitchHelp"
+        app:layout_constraintTop_toTopOf="@+id/switchHelp" />
+
+    <Switch
+        android:id="@+id/switchSound"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/fragment_settings_margin_top"
+        android:layout_marginEnd="@dimen/fragment_settings_margin_top"
+        android:checked="true"
+
+        android:gravity="start"
+        android:paddingEnd="@dimen/fragment_settings_padding_switch_end"
+        android:textAlignment="viewStart"
+        android:theme="@style/SwitchTheme"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvBackGroundMusic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/settings_tv_change_background_music"
+        app:layout_constraintBottom_toBottomOf="@+id/btnBackground"
+        app:layout_constraintStart_toStartOf="@+id/tvSwitchHelp"
+        app:layout_constraintTop_toTopOf="@+id/btnBackground" />
+
+    <Button
+        android:id="@+id/btnBackground"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/fragment_settings_padding_distance_between_switch"
+        android:layout_marginEnd="@dimen/fragment_settings_margin_top"
+        android:background="@drawable/btn_rounded_border"
+        android:backgroundTint="#FFFFFF"
+        android:text="@string/settings_btn_change_background_music"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/switchHelp" />
+
+    <ImageView
+        android:id="@+id/ivLogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvAppName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/fragment_settings_margin_top"
+        android:fontFamily="@font/go3v2"
+        android:text="@string/sudoku_activity_main_tvTitle"
+        android:textSize="@dimen/fragment_settings_title"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ivLogo" />
+
+    <TextView
+        android:id="@+id/tvDevelopers"
+        android:layout_width="@dimen/fragment_settings_composed_width"
+        android:layout_height="@dimen/fragment_settings_composed_height"
+        android:layout_marginTop="@dimen/fragment_settings_margin_top"
+        android:text="@string/settings_composed_by"
+        android:textAlignment="center"
+        android:textColor="@color/settings_text_composed_by"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvAppName" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

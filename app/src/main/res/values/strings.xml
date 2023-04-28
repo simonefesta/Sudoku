@@ -1,0 +1,64 @@
+<resources>
+    <string name="app_name">Sudoku</string>
+    <string name="main_activity_btn_new_game">New game</string>
+    <string name="main_activity_btn_continue">Continue</string>
+    <string name="sudoku_activity_btn_cancel">Cancel</string>
+    <string name="sudoku_activity_btn_help">Help</string>
+    <string name="sudoku_activity_btn_note">Note</string>
+    <string name="toast_audiotrack">Too much plays</string>
+    <string name="main_activity_toast_saved_game">Game saved</string>
+    <string name="main_activity_toast_no_save_present">No game save present</string>
+    <string name="main_activity_toast_save_corrupted">Save are corrupted</string>
+    <string name="sudoku_activity_main_tvTitle">SUDOKU</string>
+    <string name="title_activity_main2" translatable="false">Main2Activity</string>
+    <string name="title_home">Home</string>
+    <string name="main_activity_toast_unable_create_game">Unable to create a new game</string>
+    <string name="main_activity_toast_not_saved_game">Fail to save the game</string>
+    <string name="title_score">Score</string>
+    <string name="settings_fragment_title">Settings</string>
+    <string name="settings_composed_by">Composed by : Adriano Brugnoni, Alessandro Fato, Simone Festa</string>
+    <string name="settings_switch_sound_text">Enable or disable background music</string>
+    <string name="settings_toast_music_off">Music off</string>
+    <string name="settings_toast_music_on">Music on</string>
+    <string name="sudoku_activity_main_easy">Easy</string>
+    <string name="sudoku_activity_main_medium">Medium</string>
+    <string name="sudoku_activity_main_hard">Hard</string>
+    <string name="sudoku_activity_main_back">Back</string>
+    <string name="settings_switch_help">Allow helps in the game</string>
+    <string name="settings_toast_help_off">Help off</string>
+    <string name="settings_toast_help_on">Help on</string>
+    <string name="sudoku_activity_tv_points">Points:</string>
+    <string name="menu_activity_toast_unable_load_game">Unable to load the game</string>
+    <string name="score_activity_title">score</string>
+    <string name="score_name">Name</string>
+    <string name="score_points">Points</string>
+    <string name="score_time">Time</string>
+    <string name="modal_win_header">You win!</string>
+    <string name="sudoku_activity_default_player_name">User</string>
+    <string name="modal_lose_header">You lose!</string>
+
+<!--    Sudoku activity buttons-->
+    <string name="btn1" translatable="false">1</string>
+    <string name="btn2" translatable="false">2</string>
+    <string name="btn3" translatable="false">3</string>
+    <string name="btn4" translatable="false">4</string>
+    <string name="btn5" translatable="false">5</string>
+    <string name="btn6" translatable="false">6</string>
+    <string name="btn7" translatable="false">7</string>
+    <string name="btn8" translatable="false">8</string>
+    <string name="btn9" translatable="false">9</string>
+    <string name="btn_number_helps" translatable="false">x5</string>
+    <string name="msg_critical_error">A critical error has occurred. Contact the developers.</string>
+    <string name="modal_error_btn_text">Exit</string>
+    <string name="exception_msg_corrupted_file">Corrupt WAV format, reinstall app.</string>
+    <string name="exception_msg_wav_incompatible">WAV not corrupt, but incompatible. Reinstall app.</string>
+    <string name="select_background_music">Select a valid .wav file</string>
+    <string name="toast_permission_denied">Permission not granted by the user</string>
+    <string name="toast_directory_error">Error on directory opening</string>
+    <string name="toast_wav_required">ERROR: Load a WAV file</string>
+    <string name="settings_btn_change_background_music">select</string>
+    <string name="settings_tv_change_background_music">Change background music</string>
+    <string name="sudoku_critical_error">Critical Error. Report bug to developers.</string>
+
+
+</resources>

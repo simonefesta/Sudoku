@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Sudoku Activity -->
+    <dimen name="btn_lateral_size">35dp</dimen>
+    <dimen name="numbers_lateral_size">45dp</dimen>
+</resources>

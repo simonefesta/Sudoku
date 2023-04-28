@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Sudoku activity -->
+    <dimen name="tv_number_text_size">30sp</dimen>
+    <dimen name="tv_number_padding">8dp</dimen>
+    <dimen name="sudoku_margin_top_view">5dp</dimen>
+    <dimen name="sudoku_bottoms_distance">25dp</dimen>
+    <dimen name="sudoku_margin_top">50dp</dimen>
+    <dimen name="sudoku_clock_width">32dp</dimen>
+    <dimen name="sudoku_clock_height">28dp</dimen>
+    <dimen name="sudoku_points_height">34dp</dimen>
+
+    <dimen name="sudoku_points_width">195dp</dimen>
+
+    <!-- intro activity -->
+    <dimen name="size_image_default">188dp</dimen>
+    <dimen name="radius_logo">14dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- settings activity -->
+
+    <dimen name="fragment_settings_padding_switch_end">10dp</dimen>
+    <dimen name="fragment_settings_padding_distance_between_switch">16dp</dimen>
+    <dimen name="fragment_settings_margin_top">30dp</dimen>
+    <dimen name="fragment_settings_margin_start">40dp</dimen>
+    <dimen name="fragment_settings_title">36dp</dimen>
+
+
+
+
+    <dimen name="fragment_settings_composed_height">73dp</dimen>
+    <dimen name="fragment_settings_composed_width">125dp</dimen>
+
+
+    <!-- Fragments - Menu activity -->
+    <dimen name="fragment_tv_title_size">65sp</dimen>
+
+
+    <!-- Score fragment -->
+    <dimen name="tv_character_size">18sp</dimen>
+    <dimen name="bt_score_padding">16sp</dimen>
+
+
+    <!-- Home fragment -->
+
+    <dimen name="fragment_home_bottom_size_text">13sp</dimen>
+    <dimen name="fragment_home_bottom_padding">4dp</dimen>
+    <dimen name="fragment_home_padding_distance_between_bottoms">10dp</dimen>
+    <dimen name="fragment_home_margin">20dp</dimen>
+    <dimen name="fragment_home_button_margin">10dp</dimen>
+
+    <dimen name="fragment_home_btn_back_margin">58dp</dimen>
+
+
+
+
+
+
+
+
+    <!-- element layout -->
+    <dimen name="element_width">50dp</dimen>
+    <dimen name="element_padding">8dp</dimen>
+    <dimen name="margin_button">10dp</dimen>
+    <dimen name="chronosize">92dp</dimen>
+
+    <!-- modal win-->
+    <dimen name="modalwin_width">334dp</dimen>
+    <dimen name="modalwin_height">180dp</dimen>
+    <dimen name="card_radius">4dp</dimen>
+    <dimen name="player_width">157dp</dimen>
+    <dimen name="player_height">40dp</dimen>
+    <dimen name="player_radius">8dp</dimen>
+
+    <dimen name="modal_table_width">312dp</dimen>
+    <dimen name="modal_table_height">63dp</dimen>
+
+    <dimen name="btnwin_width">87dp</dimen>
+    <dimen name="btnwin_height">40dp</dimen>
+
+    <dimen name="linear_height">33dp</dimen>
+    <dimen name="iv_width">33dp</dimen>
+    <dimen name="iv_padding">4dp</dimen>
+
+    <!-- modal lose-->
+
+    <dimen name="modallose_width">355dp</dimen>
+    <dimen name="modallose_height">139dp</dimen>
+    <dimen name="modallose_margin">50dp</dimen>
+
+</resources>
